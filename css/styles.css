@@ -4,18 +4,49 @@
     --contact-color: #757575;
     --model-button: #188CE8;
     --basic-color: #000;
+    --border-line-color: #ECECEC;
+}
+html {
+    box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+ul,
+ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+img {
+    display: block;
+}
 
 .list{
     list-style: none;
     
 }
+.link{
+    text-decoration: none;
+}
+
+
 body {
     font-family: Roboto;
     color: var(--basic-color);
     max-width: 1600px;
     background-color: #fff;
+    margin: 0 auto;
     
 }
 
@@ -24,6 +55,9 @@ body {
 /*-----Header-----*/
 .header {
     color: var(--basic-color);
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--border-line-color-color);
 }
 
 
@@ -36,21 +70,28 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--basic-color);
+    margin: 24px 90px 24px 215px;
 }
 .logo-web{
     color: var(--focus-color);
 }
-
+.header-nav-container{
+    display: flex;
+}
 .header-list {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    display: flex;
+    margin-right: 330px;
+    padding-top: 32px;
     
-
 }
-
+.header-list-item:not(:last-child) {
+    margin-right: 50px;
+}
 
 .header-list-item-link {
     color: var(--basic-color);
@@ -63,6 +104,13 @@ body {
     color: var(--focus-color);
 }
 
+.header-contacts{
+    display: flex;
+    padding-top: 32px;
+}
+.contacts-item:not(:last-child){
+    margin-right: 50px;
+}
 .contacts-item-link{
     font-weight: 500;
     font-size: 14px;
@@ -76,17 +124,37 @@ body {
 .contacts-item-link:focus {
     color: var(--focus-color);
 }
+.tel{
+    width: 122px;
+}
 
 /*-----Main------*/
 
 .main{
-    max-width: 1600px;
+   
+   
 }
 
 
 .main-decision-section{
     background-color: #2F303A;
+    /*height: 600px;*/
 
+}
+.main-description-section{
+   
+   
+}
+
+.main-properties-list{
+    padding: 95px 215px 95px 215px;
+    display: flex;
+
+    
+    
+}
+.main-properties-list-item:not(:last-child){
+    margin-right: 30px;
 }
 .main-title-business{
     font-weight: 900;
@@ -94,6 +162,9 @@ body {
     line-height: 1.36;
     letter-spacing: 0.06em;
     color: #fff;
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom: 30px;
 }
 
 .model-button{
@@ -103,6 +174,10 @@ body {
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
+    margin-left: 700px;
+    padding: 10px 32px;
+    border-radius: 4px;
+    margin-bottom: 200px;
 
 }
 
@@ -140,9 +215,22 @@ body {
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--title-color);
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-
+.example-images{
+    display: flex;
+    justify-content: center;
+    
+}
+.example-img-item{
+  
+}
+.example-img-item:not(:last-child){
+    margin-right: 30px;
+    
+}
 .team-section{
     background-color: #F5F4FA;
     
@@ -150,6 +238,7 @@ body {
 
 .studio-team-list-item{
     background-color: #fff;
+    text-align: center;
 }
 
 .team-title{
@@ -158,16 +247,32 @@ body {
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--title-color);
+    padding-top: 95px;
+    text-align: center;
+    margin-bottom: 50px;
     
 }
 
+.team-list{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 95px;
+}
 
+.studio-team-list-item:not(:last-child){
+    margin-right: 30px;
+
+}
+.team-person-photo{
+    margin-bottom: 30px;
+}
 .team-person-title{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--title-color);
+    margin-bottom: 10px;
 }
 
 .team-person-description{
@@ -176,6 +281,7 @@ body {
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--contact-color);
+    padding-bottom: 30px;
 
 }
 
@@ -220,6 +326,10 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+    display: inline-block;
+    padding-top: 60px;
+    padding-left: 215px;
+    margin-bottom: 20px;
     
 }
 
@@ -229,7 +339,12 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    padding-left: 215px;
+    padding-bottom: 60px;
     
+}
+.adress-list-item:not(:last-child){
+    margin-bottom: 10px;
 }
 .list-item{
     text-decoration: none;
