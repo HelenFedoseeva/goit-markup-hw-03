@@ -1,0 +1,247 @@
+:root{
+    --focus-color: #2196F3;
+    --title-color: #212121;
+    --contact-color: #757575;
+    --model-button: #188CE8;
+    --basic-color: #000;
+}
+
+
+.list{
+    list-style: none;
+    
+}
+body {
+    font-family: Roboto;
+    color: var(--basic-color);
+    max-width: 1600px;
+    background-color: #fff;
+    
+}
+
+
+
+/*-----Header-----*/
+.header {
+    color: var(--basic-color);
+}
+
+
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--basic-color);
+}
+.logo-web{
+    color: var(--focus-color);
+}
+
+.header-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    
+
+}
+
+
+.header-list-item-link {
+    color: var(--basic-color);
+    text-decoration: none;
+}
+
+
+.header-list-item-link:hover,
+.header-list-item-link:focus{
+    color: var(--focus-color);
+}
+
+.contacts-item-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--contact-color);
+    text-decoration: none;  
+}
+
+.contacts-item-link:hover ,
+.contacts-item-link:focus {
+    color: var(--focus-color);
+}
+
+/*-----Main------*/
+
+.main{
+    max-width: 1600px;
+}
+
+
+.main-decision-section{
+    background-color: #2F303A;
+
+}
+.main-title-business{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: #fff;
+}
+
+.model-button{
+    color: #fff;
+    background-color: var(--focus-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+
+}
+
+.model-button:hover,
+.model-button:focus{
+    background-color: var(--model-button);
+}
+
+.business-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+.main-title{
+    display: none;
+}
+
+
+
+.business-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--contact-color);
+}
+
+
+
+.job-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+
+.team-section{
+    background-color: #F5F4FA;
+    
+}
+
+.studio-team-list-item{
+    background-color: #fff;
+}
+
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    
+}
+
+
+.team-person-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.team-person-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--contact-color);
+
+}
+
+.portfolio-main-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.portfolio-main-button:hover,
+.portfolio-main-button:focus{
+    background-color: var(--focus-color);
+    color: #fff;
+}
+.portfolio-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+.portfolio-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--contact-color);
+}
+
+/*-----Footer------*/
+.footer{
+    background-color: #2F303A;  
+}
+.footer-logo{
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+}
+
+.address{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+}
+.list-item{
+    text-decoration: none;
+    color: #ffffff99;
+}
+
+.list-item:hover,
+.list-item:focus{
+    color: var(--focus-color);
+}
+
+
+.map{
+    color: #fff;
+}
