@@ -130,21 +130,12 @@ body {
 
 /*-----Main------*/
 
-.main{
-   
-   
-}
-
-
 .main-decision-section{
     background-color: #2F303A;
     /*height: 600px;*/
 
 }
-.main-description-section{
-   
-   
-}
+
 .portfolio-nav-list{
     display: flex;
     justify-content: center;
@@ -270,9 +261,7 @@ body {
     padding-bottom: 95px;
     
 }
-.example-img-item{
-  
-}
+
 .example-img-item:not(:last-child){
     margin-right: 30px;
     
