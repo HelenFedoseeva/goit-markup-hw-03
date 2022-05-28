@@ -15,18 +15,18 @@
 <body>
     <header class="header">
         <div class="container flex-container">
-            <nav class="header-nav">
-                <div class="header-nav-container">
-                    <a class="logo" lang="en" href=""><span class="logo-web">Web</span>Studio</a>
-                    <ul class="header-list list">
-                        <li class="header-list-item"><a class="header-list-item-link" href="">Студия</a></li>
-                        <li class="header-list-item"><a class="header-list-item-link" href="./portfolio.html">Портфолио</a></li>
-                        <li class="header-list-item"><a class="header-list-item-link" href="">Контакты</a></li>
-                    </ul>
-                </div>
+            <nav class="header-nav-container">
+                <a class="logo" lang="en" href=""><span class="logo-web">Web</span>Studio</a>
+                <ul class="header-list list">
+                    <li class="header-list-item"><a class="header-list-item-link" href="./index.html">Студия</a></li>
+                    <li class="header-list-item"><a class="header-list-item-link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="header-list-item"><a class="header-list-item-link" href="">Контакты</a></li>
+                </ul>
             </nav>
             <ul class="header-contacts list">
-                <li class="contacts-item"><a class="contacts-item-link" href="mailto:info@devstudio.com ">info@devstudio.com</a>
+                <li class="contacts-item"><a class="contacts-item-link"
+                        href="mailto:info@devstudio.com ">info@devstudio.com</a>
                 </li>
                 <li class="contacts-item"><a class="contacts-item-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
@@ -36,12 +36,10 @@
                 <section class="main-decision-section">
                     <div class="container">
                         <h1 class="main-title-business">Эффективные решения <br> для вашего бизнеса</h1>
-                        <div class="centered-model-button">
-                            <button class="model-button" type="button">Заказать услугу</button>
-                        </div>
+                        <button class="model-button" type="button">Заказать услугу</button>
                     </div>
                 </section>
-            <section class="main-description-section">
+            <section class="main-description-section section">
                 <div class="container">
                     <h2 class="visually-hidden-title" lang="en">Properties</h2>
                     <ul class="main-properties-list list">
@@ -67,7 +65,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="our-job-section">
+            <section class="our-job-section section">
                 <div class="container">
                     <h2 class="job-title">Чем мы занимаемся</h2>
                     <ul class="example-images list">
@@ -83,29 +81,37 @@
                     </ul>
                 </div>
             </section>
-            <section class="team-section">
+            <section class="team-section section">
                     <div class="container">
                         <h2 class="team-title">Наша команда</h2>
                         <ul class="team-list list">
                             <li class="studio-team-list-item">
                                 <img class="team-person-photo" src="./images/team/Igor.jpg" width="270" alt="мужчина в очках улыбается">
-                                <h3 class="team-person-title">Игорь Демьяненко</h3>
-                                <p class="team-person-description">Product Designer</p>
+                                <div class="team-description-section">
+                                    <h3 class="team-person-title">Игорь Демьяненко</h3>
+                                    <p class="team-person-description">Product Designer</p>
+                                </div>
                             </li>
                             <li class="studio-team-list-item">
                                 <img class="team-person-photo" src="./images/team/Olga.jpg" width="270" alt="девушка улыбается">
-                                <h3 class="team-person-title">Ольга Репина</h3>
-                                <p class="team-person-description">Frontend Developer</p>
+                                <div class="team-description-section">
+                                    <h3 class="team-person-title">Ольга Репина</h3>
+                                    <p class="team-person-description">Frontend Developer</p>
+                                </div>
                             </li>
                             <li class="studio-team-list-item">
                                 <img class="team-person-photo" src="./images/team/Nikolai.jpg" width="270" alt="мужчина улыбается">
-                                <h3 class="team-person-title">Николай Тарасов</h3>
-                                <p class="team-person-description">Marketing</p>
+                                <div class="team-description-section">
+                                    <h3 class="team-person-title">Николай Тарасов</h3>
+                                    <p class="team-person-description">Marketing</p>
+                                </div> 
                             </li>
                             <li class="studio-team-list-item">
                                 <img class="team-person-photo" src="./images/team/Michael.jpg" width="270" alt="Мужчина в очках">
-                                <h3 class="team-person-title">Михаил Ермаков</h3>
-                                <p class="team-person-description">UI Designer</p>
+                                <div class="team-description-section">
+                                    <h3 class="team-person-title">Михаил Ермаков</h3>
+                                    <p class="team-person-description">UI Designer</p>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -116,13 +122,12 @@
                 <a class="footer-logo" lang="en" href=""><span class="logo-web">Web</span>Studio</a>
                 <address class="address">
                     <ul class="list">
-                        <li> <a href="https://goo.gl/maps/zFuHG1yWftqur64G7" target="_blank" rel="noopener norefferer"> <span
-                                    class="map">г. Киев, пр-т
-                                    Леси Украинки, 26</span> </a></li>
-                        <li>
+                        <li class="address-list-item"> <a class="list-item adress map" href="https://goo.gl/maps/zFuHG1yWftqur64G7" target="_blank" rel="noopener norefferer">г. Киев, пр-т
+                                    Леси Украинки, 26</a></li>
+                        <li class="address-list-item">
                             <a class="list-item" href="mailto:info@example.com ">info@example.com</a>
                         </li>
-                        <li>
+                        <li class="address-list-item">
                             <a class="list-item" href="tel:+380991111111">+38 099 111 11 11</a>
                         </li>
                     </ul>
