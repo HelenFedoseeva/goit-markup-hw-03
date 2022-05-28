@@ -171,15 +171,12 @@ body {
 }
 .main-portfolio-list-item{
     margin-bottom: 30px;
-    cursor: pointer;
+
 }
 .main-portfolio-list-item:not(:nth-child(3n)){
     margin-right: 30px;
 }
-.main-portfolio-list-item:hover,
-.main-portfolio-list-item:focus{
-    box-shadow: 0px 4px 4px #00000025;
-}
+
 .no-margin-bottom{
     margin-bottom: 0px;
 }
